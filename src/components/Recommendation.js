@@ -1,12 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import hiram from "../images/hiram.jpg";
 import Title from "./Title";
 export default function Recommendation() {
-  const [showMore, setShowMore] = useState(false);
-
-  const toggleShowMore = () => {
-    setShowMore(!showMore);
-  };
   return (
     <section className="section" id="recommendation">
       <Title title="Professional" subTitle="Recommendation" />
