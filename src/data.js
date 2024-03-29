@@ -12,7 +12,7 @@ import soloLearnCss from "./images/soloLearnCss.jpg";
 import soloLearnHtml from "./images/soloLearnHtml.png";
 import soloLearnJavascript from "./images/soloLearnJavascript.jpg";
 import soloLearnPython from "./images/soloLearnPython.jpg";
-import { Home01Icon } from '@hugeicons/react-pro';
+
 
 const LaptopProgrammingIcon = (props) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width={24} height={24} color={"#000000"} fill={"none"} {...props}>
