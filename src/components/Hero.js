@@ -1,5 +1,5 @@
 import React from "react";
-import resumePDF from "../Jeremy_Soto_Resume.pdf"; // Import your PDF file
+import resumePDF from "../Jeremy_Soto.pdf"; // Import your PDF file
 
 export default function Hero() {
   return (
@@ -9,7 +9,7 @@ export default function Hero() {
         <h3>
           Software Developer
         </h3>
-        <a href={resumePDF} download="JeremySotoFloresResume.pdf" className="btn hero-btn">
+        <a href={resumePDF} download="Jeremy_Soto.pdf" className="btn hero-btn">
           Download Resume
         </a>
       </div>
